@@ -1,0 +1,9 @@
+<resources>
+<string name="app_name">一加自动安装服务</string>
+<string name="service_desc">一加自动安装服务</string>
+<string name="open_accessbility_service">打开无障碍服务</string>
+<string name="attention">注意</string>
+<string name="please_open_service">请先打开无障碍服务</string>
+<string name="open_settings">去打开</string>
+<string name="cancel">不了不了</string>
+</resources>
