@@ -47,6 +47,8 @@ public class OneplusInstallerHelperService extends AccessibilityService {
         List<AccessibilityNodeInfo> nodeInfoList = new ArrayList<>();
         nodeInfoList.addAll(rootNode.findAccessibilityNodeInfosByText("安装"));
         nodeInfoList.addAll(rootNode.findAccessibilityNodeInfosByText("完成"));
+        nodeInfoList.addAll(rootNode.findAccessibilityNodeInfosByText("install));
+        nodeInfoList.addAll(rootNode.findAccessibilityNodeInfosByText("done));
         for (AccessibilityNodeInfo nodeInfo : nodeInfoList) {
             nodeInfo.performAction(AccessibilityNodeInfo.ACTION_CLICK);
         }
